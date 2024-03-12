@@ -23,7 +23,7 @@ void setup() {
        esc[i].writeMicroseconds(2000); // Envoi d'un signal maximum à chaque ESC
        delay(1000);
        esc[i].writeMicroseconds(1000); // Envoi d'un signal minimum à chaque ESC
-       val[i] = 0;
+       val[i] = 50;//27
    }
 
    pinMode(LED_BUILTIN, OUTPUT); // Configuration de la broche de la LED intégrée en tant que sortie
